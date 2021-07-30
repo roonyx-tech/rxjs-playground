@@ -1,6 +1,8 @@
-# RxJS Playgroud
+# RxJS Playground
 
 Simple RxJS playground for candidates assessment used by Roonyx.
+
+Provides TypeScript, Jasmine and RxJS ready for development.
 
 ## Installation
 
@@ -25,4 +27,4 @@ npm run test:dev
 After first run, tests will be launched again automatically when files changed.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](LICENSE)
