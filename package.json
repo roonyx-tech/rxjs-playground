@@ -1,0 +1,38 @@
+{
+  "name": "rxjs-playground",
+  "version": "1.0.0",
+  "description": "Simple RxJS playground for candidates assessment.",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roonyx-tech/rxjs-playground.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "rxjs",
+    "jasmine"
+  ],
+  "author": "Roonyx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roonyx-tech/rxjs-playground/issues"
+  },
+  "homepage": "https://github.com/roonyx-tech/rxjs-playground#readme",
+  "scripts": {
+    "test:dev": "nodemon --ext ts --exec 'jasmine-ts \"src/**/*.spec.ts\" --reporter=jasmine-console-reporter'"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.8.2",
+    "@types/node": "^16.4.7",
+    "jasmine": "^3.8.0",
+    "jasmine-console-reporter": "^3.1.0",
+    "jasmine-ts": "^0.4.0",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "rxjs": "^7.3.0"
+  }
+}
